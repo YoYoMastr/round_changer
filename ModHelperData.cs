@@ -3,7 +3,7 @@ namespace round_changer;
 public static class ModHelperData
 {
     public const string WorksOnVersion = "55.0";
-    public const string Version = "1.1";
+    public const string Version = "1.1.1";
     public const string Name = "round changer but better";
 
     public const string Description = "press F8 to change the round now has no limit on what round you can go to (Mod orginally made by Timotheeee edited by me)";
