@@ -61,10 +61,10 @@ namespace round_changer
             }
             if (Input.GetKeyDown(KeyCode.F8))
             {
-                Il2CppSystem.Action<int> mod = (Il2CppSystem.Action<int>)delegate (int s)
+                Il2CppSystem.Action<int> mod = (Il2CppSystem.Action<int>)delegate (int sss)
                 {
 
-                    InGame.instance.bridge.SetRound(s);
+                    InGame.instance.bridge.SetRound(sss);
                 };
                 
 

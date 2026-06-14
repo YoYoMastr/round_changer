@@ -7,7 +7,6 @@ round_changer
 </h1>
 
 
-Features a GitHub actions setup to automatically build the mod whenever commits are pushed,
-and publish a release if a tag is pushed (using the LATEST.md as the body).
+Mod Made By Timtheeee Edited By Me (YoYoMastr [YoYoMaster])
 
 [![Requires BTD6 Mod Helper](https://raw.githubusercontent.com/gurrenm3/BTD-Mod-Helper/master/banner.png)](https://github.com/gurrenm3/BTD-Mod-Helper#readme)
