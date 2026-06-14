@@ -61,14 +61,14 @@ namespace round_changer
             }
             if (Input.GetKeyDown(KeyCode.F8))
             {
-                Il2CppSystem.Action<int> mod = (Il2CppSystem.Action<int>)delegate (int sss)
+                Il2CppSystem.Action<int> mod = (Il2CppSystem.Action<int>)delegate (int s)
                 {
 
-                    InGame.instance.bridge.SetRound(sss);
+                    InGame.instance.bridge.SetRound(s);
                 };
                 
 
-                PopupScreen.instance.ShowSetValuePopup("round", "change round to", mod, 3);
+                PopupScreen.instance.ShowSetValuePopup("round", "change round to", mod, CurrentRound(), 0, 9999999999999999999);
                 change = true;
 
             }
