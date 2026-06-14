@@ -50,7 +50,9 @@ namespace round_changer
             {
                 if (PopupScreen.instance.GetFirstActivePopup() != null)
                 {
-                    PopupScreen.instance.GetFirstActivePopup().GetComponentInChildren<TMP_InputField>().characterValidation = TMP_InputField.CharacterValidation.None;
+                    var inputField = PopupScreen.instance.GetFirstActivePopup().GetComponentInChildren<TMP_InputField>();
+                    inputField.characterValidation = TMP_InputField.CharacterValidation.None;
+                    inputField.characterLimit = 0;
                     change = false;
                 }
 
