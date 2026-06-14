@@ -4,7 +4,7 @@ public static class ModHelperData
 {
     public const string WorksOnVersion = "55.0";
     public const string Version = "1.0";
-    public const string Name = "round_changer";
+    public const string Name = "round changer";
 
     public const string Description = "press F8 to change the round (Mod orginally made by Timotheeee editted by me)";
 
