@@ -68,7 +68,7 @@ namespace round_changer
                 };
                 
 
-                PopupScreen.instance.ShowSetValuePopup("round", "change round to", mod, CurrentRound(), 0, 9999999999999999999);
+                PopupScreen.instance.ShowSetValuePopup("round", "change round to", mod,2;
                 change = true;
 
             }
